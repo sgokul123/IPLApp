@@ -17,6 +17,7 @@ import java.util.ArrayList;
  */
 public class ImageAdapter extends BaseAdapter {
     public static final String TAG = "ImageAdapter";
+<<<<<<< HEAD
     int j;
     private ImageView mImageView;
     private Context mContext;
@@ -27,6 +28,19 @@ public class ImageAdapter extends BaseAdapter {
     public ImageAdapter(Context con, ArrayList<Bitmap> bitmaps) {
         mContext = con;
         this.mBitmapsImages = bitmaps;
+=======
+
+    private  ImageView mImageView;
+    private Context mContext;
+    private int size,i;
+    int j;
+    private   ArrayList<Bitmap> mBitmapsImages;
+   // private ArrayList<PlayerInfoModel> playerInfoModels=new ArrayList<>();
+
+    public ImageAdapter(Context con, ArrayList<Bitmap> bitmaps) {
+        mContext = con;
+      this.mBitmapsImages =bitmaps;
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
     }
 
     public int getCount() {
@@ -53,7 +67,11 @@ public class ImageAdapter extends BaseAdapter {
         } else {
             mImageView = (ImageView) convertView;
         }
+<<<<<<< HEAD
         Debug.showLog(TAG, "Set Image..");
+=======
+        Debug.showLog(TAG,"Set Image..");
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         mImageView.setImageBitmap(mBitmapsImages.get(position));
 
         return mImageView;

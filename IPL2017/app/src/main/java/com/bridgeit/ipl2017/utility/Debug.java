@@ -8,10 +8,16 @@ import android.util.Log;
 
 public class Debug {
     static boolean isDebuggable = true;
+<<<<<<< HEAD
 
     public static void showLog(String tag, String message) {
         if (isDebuggable) {
             Log.i(tag, "showLog: " + message);
+=======
+    public static void showLog(String tag,String message){
+        if(isDebuggable){
+            Log.i(tag, "showLog: "+message);
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         }
     }
 }

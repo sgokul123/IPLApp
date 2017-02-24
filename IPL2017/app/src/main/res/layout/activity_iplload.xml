@@ -13,8 +13,14 @@
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
+<<<<<<< HEAD
         android:layout_marginTop="@dimen/dimen_10dp"
         android:background="@color/LavenderGray">
+=======
+        android:padding="@dimen/dimen_20dp"
+        android:background="@color/LavenderGray"
+        >
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 
         <ImageView
             android:id="@+id/imageViewiplload"
@@ -28,9 +34,16 @@
             android:layout_height="match_parent">
 
 
+<<<<<<< HEAD
         </FrameLayout>
 
         <!--<Button
+=======
+
+        </FrameLayout>
+
+        <Button
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
             android:id="@+id/button_logout"
             android:text="Logout"
             android:layout_width="wrap_content"
@@ -39,10 +52,14 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentEnd="true"
+<<<<<<< HEAD
             />-->
 
 
 
+=======
+            />
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
     </RelativeLayout>
 
 </RelativeLayout>

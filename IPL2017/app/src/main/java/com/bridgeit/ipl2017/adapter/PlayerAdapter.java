@@ -23,8 +23,11 @@ import com.bridgeit.ipl2017.model.PlayerInfoModel;
 import com.bridgeit.ipl2017.utility.Constants;
 import com.bridgeit.ipl2017.utility.Debug;
 import com.bridgeit.ipl2017.view.Player;
+<<<<<<< HEAD
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+=======
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 
 import java.io.ByteArrayOutputStream;
 import java.util.List;
@@ -79,7 +82,11 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.MyViewHold
         holder.playercardView.startAnimation(mAnimation);
 
         //Download Images and assign to ImageView .
+<<<<<<< HEAD
        DownloadImage.downloadImage(model.getPlayer_img_url(), new DownloadImageInterface() {
+=======
+        DownloadImage.downloadImage(model.getPlayer_img_url(), new DownloadImageInterface() {
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
             @Override
             public void getImage(Bitmap bitmap) {
                 holder.playerImg.setImageBitmap(bitmap);
@@ -87,12 +94,15 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.MyViewHold
 
             }
         });
+<<<<<<< HEAD
 String imgUrl = "https://console.firebase.google.com/project/myipl-5cedb/storage/files/"+model.getPlayer_img_url();
      /*   Glide.with(mContext).load(imgUrl)
                 .thumbnail(0.5f)
                 .crossFade()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(holder.playerImg);*/
+=======
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 
         mDialog.dismiss();
         Debug.showLog(TAG,"Image Loaded..");

@@ -8,7 +8,11 @@
 
     tools:context="com.bridgeit.ipl2017.MainActivity">
 
+<<<<<<< HEAD
   <!--  <RelativeLayout
+=======
+    <RelativeLayout
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -23,6 +27,7 @@
             android:layout_height="300sp"
             app:srcCompat="@drawable/img234" />
 
+<<<<<<< HEAD
 
 
 
@@ -32,4 +37,18 @@
         android:id="@+id/framemain"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+=======
+            <FrameLayout
+                android:id="@+id/framemain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            </FrameLayout>
+
+
+    </RelativeLayout>
+
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 </RelativeLayout>

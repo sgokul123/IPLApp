@@ -3,7 +3,10 @@ package com.bridgeit.ipl2017.view;
 import android.app.ProgressDialog;
 import android.net.Uri;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.design.widget.FloatingActionButton;
+=======
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -37,6 +40,10 @@ public class PlayerFragment extends Fragment {
     private static String mTeamName;
     static ProgressDialog mDialog;
     private RecyclerView mRecyclerView;
+<<<<<<< HEAD
+=======
+    private static Button mButtonBack;
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
     private TeamFragment.OnFragmentInteractionListener mListener;
 
     public PlayerFragment(ProgressDialog mDialog) {
@@ -50,11 +57,19 @@ public class PlayerFragment extends Fragment {
             this.mDialog=mDialog;   //Progress Dialog instance For Dismiss after data fetch.
     }
 */
+<<<<<<< HEAD
     public static PlayerFragment newInstance(String teamName, ProgressDialog dialog ) {
+=======
+    public static PlayerFragment newInstance(String teamName, ProgressDialog dialog, Button backButton) {
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 
         Bundle args = new Bundle();
         mDialog=dialog;
         mTeamName=teamName;
+<<<<<<< HEAD
+=======
+        mButtonBack=backButton;
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         PlayerFragment fragment = new PlayerFragment(dialog);
         fragment.setArguments(args);
         return fragment;
@@ -73,6 +88,10 @@ public class PlayerFragment extends Fragment {
         mRecyclerView = (RecyclerView)view.findViewById(R.id.player_recycler);
         //Download Player data Form Firebase.
         PlayerViewModel playerViewModel=new PlayerViewModel(getActivity());
+<<<<<<< HEAD
+=======
+        mButtonBack.setVisibility(View.INVISIBLE);
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         playerViewModel.getPlayerData(mTeamName,new ArrayListPlayer()
         {
             @Override

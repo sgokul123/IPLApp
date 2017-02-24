@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,6 +18,7 @@
 
     </android.support.v7.widget.RecyclerView>
 
+<<<<<<< HEAD
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/mFabLogout"
         android:layout_width="wrap_content"
@@ -30,3 +35,6 @@
         />
 
 </android.support.design.widget.CoordinatorLayout>
+=======
+</FrameLayout>
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a

@@ -48,7 +48,11 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:9.4.0'
     compile 'com.android.support:recyclerview-v7:24.2.1'
 
+<<<<<<< HEAD
 // Glide
     compile 'com.github.bumptech.glide:glide:3.7.0'
+=======
+
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 }
 apply plugin: 'com.google.gms.google-services'

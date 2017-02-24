@@ -3,9 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
     tools:context="com.bridgeit.ipl2017.view.LoginFragment"
     android:background="@drawable/img234"
     >
+=======
+    tools:context="com.bridgeit.ipl2017.view.LoginFragment">
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
 
 
     <android.support.v7.widget.CardView
@@ -18,6 +22,7 @@
 
         >
 
+<<<<<<< HEAD
 
         <ScrollView
             android:layout_width="match_parent"
@@ -36,6 +41,13 @@
                     android:layout_gravity="center_horizontal"
 
                     android:id="@+id/imageView" />
+=======
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10dp"
+            >
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         <EditText
             android:id="@+id/edittext_login_email"
             android:layout_width="match_parent"
@@ -47,6 +59,7 @@
             android:inputType="textPersonName"
             android:textColor="@android:color/black"
             android:textSize="20sp"
+<<<<<<< HEAD
             android:layout_marginStart="@dimen/dimen_10dp"
             android:layout_marginLeft="@dimen/dimen_10dp"
             android:layout_marginEnd="@dimen/dimen_10dp"
@@ -56,6 +69,10 @@
 
 
 
+=======
+            />
+
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         <EditText
             android:id="@+id/editview_login_Pass"
             android:layout_width="match_parent"
@@ -63,11 +80,15 @@
             android:layout_above="@+id/button_Login"
             android:layout_marginBottom="@dimen/dimen_10dp"
             android:ems="10"
+<<<<<<< HEAD
             android:text="gokuls"
+=======
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
             android:hint="@string/Password"
             android:inputType="textPassword"
             android:textColor="@android:color/black"
             android:textSize="20sp"
+<<<<<<< HEAD
             android:layout_marginStart="@dimen/dimen_10dp"
             android:layout_marginLeft="@dimen/dimen_10dp"
             android:layout_marginEnd="@dimen/dimen_10dp"
@@ -79,6 +100,10 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 >
+=======
+            />
+
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
         <Button
             android:id="@+id/button_Login"
             android:layout_width="wrap_content"
@@ -104,12 +129,24 @@
             android:layout_marginEnd="@dimen/dimen_30dp"
 
             />
+<<<<<<< HEAD
 </LinearLayout>
 
 
             </LinearLayout>
 
         </ScrollView>
+=======
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                app:srcCompat="@drawable/loginn"
+                android:layout_centerHorizontal="true"
+
+                android:id="@+id/imageView" />
+        </RelativeLayout>
+>>>>>>> 52bd319017631e3df353b28bd96ddf88d8a8806a
     </android.support.v7.widget.CardView>
 
 </RelativeLayout>
